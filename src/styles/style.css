@@ -1,1 +1,60 @@
 /** CSS STYLE **/
+:root {
+  --white: #fff;
+  --white-semitransparent: #d7ccc0;
+  --light: #f5f4f0;
+  --main: #fe8a02;
+  --main-dark: #42413c;
+  --dark: #2a2626;
+  --dark-semitransparent: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  margin: 0;
+  width: 1440px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Neucha", cursive;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+header, article, footer {
+  width: 1110px;
+  padding: 100px 0;
+
+  display: flex;
+  justify-content: center;
+}
